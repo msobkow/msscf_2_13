@@ -1,0 +1,3 @@
+#!/bin/bash
+cd $MSSCFHOME
+$VI cflib_2_13/java/cflib/src/org.msscf.msscf.cflib.CFLib/org/msscf/msscf/cflib/CFLib/CFLib.java cflib_2_13/cplus/libcflib/CFLib.cpp cfcore_2_13/java/cfcore/src/org.msscf.msscf.cfcore/org/msscf/msscf/cfcore/MssCF/MssCFEngine.java cfcore_2_13/cplus/libcfcore/MssCFEngine.cpp cfbam_2_13/java/cfbamcustmssbamcf/src/org.msscf.msscf.cfbamcust.MSSBamCF/org/msscf/msscf/cfbamcust/MSSBamCF/MSSBamCFEngine.java cfbam_2_13/cplus/libcfbamcustmsscf/CFBamCustMssCFEngine.cpp msscf_2_13/java/cfcli/src/org.msscf.msscf.CFCli/org/msscf/msscf/CFCli/CFCli.java msscf_2_13/cplus/msscfcli/msscfcli.cpp
