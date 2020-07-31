@@ -24,7 +24,10 @@ popd
 pushd msscf_2_13
 $GIT $*
 popd
-pushd kbase_2_13
+pushd cfkbase_2_13
+$GIT $*
+popd
+pushd msskbase_2_13
 $GIT $*
 popd
 pushd cfast_2_13
