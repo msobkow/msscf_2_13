@@ -24,7 +24,7 @@ popd
 pushd msscf_2_13/java
 ant
 popd
-#pushd kbase_2_13/java
+#pushd cfkbase_2_13/java
 #ant
 #popd
 pushd cfast_2_13/java

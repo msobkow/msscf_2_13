@@ -40,7 +40,7 @@ chmod 755 `find . -name '*.bash'`
 $GIT add `find . -name '.gitignore' -o -name '*.bash'`
 $GIT update-index --add --chmod=+x `find . -name '*.bash'`
 popd
-pushd kbase_2_13
+pushd cfkbase_2_13
 chmod 755 `find . -name '*.bash'`
 $GIT add `find . -name '.gitignore' -o -name '*.bash'`
 $GIT update-index --add --chmod=+x `find . -name '*.bash'`

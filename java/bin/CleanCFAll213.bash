@@ -9,7 +9,7 @@ popd
 pushd cfast_2_13/java
 ant clean
 popd
-#pushd kbase_2_13/java
+#pushd cfkbase_2_13/java
 #ant clean
 #popd
 pushd msscf_2_13/java

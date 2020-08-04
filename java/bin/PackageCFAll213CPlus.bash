@@ -24,7 +24,7 @@ popd
 pushd msscf_2_13/cplus
 ./Pack* $*
 popd
-pushd kbase_2_13
+pushd cfkbase_2_13
 ./Pack* $*
 popd
 pushd cfast_2_13/cplus
