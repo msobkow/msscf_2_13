@@ -27,6 +27,9 @@ popd
 pushd cfkbase_2_13
 $GIT $*
 popd
+pushd cfmodel_2_13
+$GIT $*
+popd
 pushd cfast_2_13
 $GIT $*
 popd
