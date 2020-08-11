@@ -45,16 +45,6 @@ chmod 755 `find . -name '*.bash'`
 $GIT add `find . -name '.gitignore' -o -name '*.bash'`
 $GIT update-index --add --chmod=+x `find . -name '*.bash'`
 popd
-pushd cfast_2_13
-chmod 755 `find . -name '*.bash'`
-$GIT add `find . -name '.gitignore' -o -name '*.bash'`
-$GIT update-index --add --chmod=+x `find . -name '*.bash'`
-popd
-pushd cffrsw_2_13
-chmod 755 `find . -name '*.bash'`
-$GIT add `find . -name '.gitignore' -o -name '*.bash'`
-$GIT update-index --add --chmod=+x `find . -name '*.bash'`
-popd
 pushd cfacc_2_13
 chmod 755 `find . -name '*.bash'`
 $GIT add `find . -name '.gitignore' -o -name '*.bash'`

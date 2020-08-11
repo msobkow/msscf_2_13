@@ -10,7 +10,7 @@ else
 			echo "PackageDbScripts213.bash ERROR MSSCFHOME directory ${MSSCFHOME} does not exist"
 		else
 			pushd ${MSSCFHOME}
-				for aproj in cflib cfcore cfsec cfint cfcrm cfdbtst cfbam msscf cfkbase cfast cffrsw cfacc
+				for aproj in cflib cfcore cfsec cfint cfcrm cfdbtst cfbam msscf cfkbase cfacc
 				do
 					if [ -d ${aproj}_2_13 ]; then
 						pushd ${aproj}_2_13

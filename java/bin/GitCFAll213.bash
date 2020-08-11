@@ -30,12 +30,6 @@ popd
 pushd cfmodel_2_13
 $GIT $*
 popd
-pushd cfast_2_13
-$GIT $*
-popd
-pushd cffrsw_2_13
-$GIT $*
-popd
 pushd cfacc_2_13
 $GIT $*
 popd

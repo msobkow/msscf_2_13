@@ -27,12 +27,6 @@ popd
 pushd cfkbase_2_13
 ./Pack* $*
 popd
-pushd cfast_2_13/cplus
-./Pack* $*
-popd
-pushd cffrsw_2_13/cplus
-./Pack* $*
-popd
 pushd cfacc_2_13/cplus
 ./Pack* $*
 popd

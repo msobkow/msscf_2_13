@@ -3,12 +3,6 @@ cd $MSSCFHOME
 pushd cfacc_2_13/java
 ant clean
 popd
-pushd cffrsw_2_13/java
-ant clean
-popd
-pushd cfast_2_13/java
-ant clean
-popd
 #pushd cfkbase_2_13/java
 #ant clean
 #popd

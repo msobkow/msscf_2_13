@@ -27,12 +27,6 @@ popd
 #pushd cfkbase_2_13/java
 #ant
 #popd
-pushd cfast_2_13/java
-ant
-popd
-pushd cffrsw_2_13/java
-ant
-popd
 pushd cfacc_2_13/java
 ant
 popd
