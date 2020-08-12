@@ -24,12 +24,6 @@ popd
 pushd msscf_3_1
 $GIT $*
 popd
-pushd cfast_3_1
-$GIT $*
-popd
-pushd cffrsw_3_1
-$GIT $*
-popd
 pushd cfacc_3_1
 $GIT $*
 popd

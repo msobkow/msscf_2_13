@@ -25,8 +25,6 @@ for aproject in \
 	cfbam_2_12 \
 	msscf_2_12 \
 	cfacc_2_12 \
-	cfast_2_12 \
-	cffrsw_2_12 \
 	cfdbtst_2_12 \
 	cflib_2_11 \
 	cfcore_2_11 \

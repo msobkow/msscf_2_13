@@ -10,7 +10,7 @@ else
 			echo "ArchiveCFAll31.bash ERROR MSSCFHOME directory ${MSSCFHOME} does not exist"
 		else
 			pushd ${MSSCFHOME}
-				for aproj in cflib cfcore cfsec cfint cfcrm cfdbtst cfbam msscf cfast cffrsw cfacc
+				for aproj in cflib cfcore cfsec cfint cfcrm cfdbtst cfbam msscf cfacc
 				do
 					if [ -d ${aproj}_3_1 ]; then
 						pushd ${aproj}_3_1

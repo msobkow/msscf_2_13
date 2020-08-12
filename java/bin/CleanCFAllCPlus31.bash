@@ -7,20 +7,6 @@ pushd cfacc_3_1/cplus
 		./$ascript
 	done
 popd
-pushd cffrsw_3_1/cplus
-	for ascript in Clean*.bash
-	do
-		echo "Running ./$ascript ..."
-		./$ascript
-	done
-popd
-pushd cfast_3_1/cplus
-	for ascript in Clean*.bash
-	do
-		echo "Running ./$ascript ..."
-		./$ascript
-	done
-popd
 pushd msscf_3_1/cplus
 	for ascript in Clean*.bash
 	do

@@ -24,12 +24,6 @@ popd
 #pushd msscf_3_1/java
 #ant
 #popd
-#pushd cfast_3_1/java
-#ant
-#popd
-#pushd cffrsw_3_1/java
-#ant
-#popd
 #pushd cfacc_3_1/java
 #ant
 #popd

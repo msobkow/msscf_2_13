@@ -32,14 +32,6 @@ pushd msscf_3_1
 $GIT add `find . -name '.gitignore' -o -name '*.bash'`
 $GIT update-index --add --chmod=+x `find . -name '*.bash'`
 popd
-pushd cfast_3_1
-$GIT add `find . -name '.gitignore' -o -name '*.bash'`
-$GIT update-index --add --chmod=+x `find . -name '*.bash'`
-popd
-pushd cffrsw_3_1
-$GIT add `find . -name '.gitignore' -o -name '*.bash'`
-$GIT update-index --add --chmod=+x `find . -name '*.bash'`
-popd
 pushd cfacc_3_1
 $GIT add `find . -name '.gitignore' -o -name '*.bash'`
 $GIT update-index --add --chmod=+x `find . -name '*.bash'`

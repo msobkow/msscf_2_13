@@ -24,12 +24,6 @@ popd
 pushd msscf_3_1/java
 ./Pack* $*
 popd
-pushd cfast_3_1/java
-./Pack* $*
-popd
-pushd cffrsw_3_1/java
-./Pack* $*
-popd
 pushd cfacc_3_1/java
 ./Pack* $*
 popd

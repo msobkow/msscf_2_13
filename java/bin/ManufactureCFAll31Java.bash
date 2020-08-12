@@ -12,9 +12,5 @@ cd $MSSCFHOME/msscf_2_13/java/bin
 cd $MSSCFHOME/msscf_2_13/java/bin
 ./ManufactureCFBam31Java.bash $*
 cd $MSSCFHOME/msscf_2_13/java/bin
-./ManufactureCFAst31Java.bash $*
-cd $MSSCFHOME/msscf_2_13/java/bin
-./ManufactureCFFrSw31Java.bash $*
-cd $MSSCFHOME/msscf_2_13/java/bin
 ./ManufactureCFAcc31Java.bash $*
 cd $MSSCFHOME
