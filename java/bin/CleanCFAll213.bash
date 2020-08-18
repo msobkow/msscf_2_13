@@ -1,6 +1,9 @@
 #!/bin/bash
 cd $MSSCFHOME
 for aprojdir in \
+	msscf_2_13/java/org.msscf.msscf.v2_13.CFCli \
+	cfbam_2_13/java/org.msscf.msscf.v2_13.cfbamcust.CFBamXmlLoader \
+	cfbam_2_13/java/org.msscf.msscf.v2_13.cfbamcust.MSSBamCF \
 	cfbam_2_13/java/org.msscf.msscf.v2_13.cfbam.CFBamMssCF \
 	cfbam_2_13/java/org.msscf.msscf.v2_13.cfbam.CFBamRam \
 	cfbam_2_13/java/org.msscf.msscf.v2_13.cfbam.CFBamSaxLoader \

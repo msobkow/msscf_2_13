@@ -15,7 +15,10 @@ for aprojdir in msscforg/java/org.msscf \
 	cfbam_2_13/java/org.msscf.msscf.v2_13.cfbam \
 	cfbam_2_13/java/org.msscf.msscf.v2_13.cfbam.CFBamSaxLoader \
 	cfbam_2_13/java/org.msscf.msscf.v2_13.cfbam.CFBamRam \
-	cfbam_2_13/java/org.msscf.msscf.v2_13.cfbam.CFBamMssCF
+	cfbam_2_13/java/org.msscf.msscf.v2_13.cfbam.CFBamMssCF \
+	cfbam_2_13/java/org.msscf.msscf.v2_13.cfbamcust.MSSBamCF \
+	cfbam_2_13/java/org.msscf.msscf.v2_13.cfbamcust.CFBamXmlLoader \
+	msscf_2_13/java/org.msscf.msscf.v2_13.CFCli
 do
 	if [ $MavenStatus == 0 ]; then
 		if [ -a ${aprojdir}/pom.xml ]; then
@@ -31,4 +34,5 @@ do
 done
 if [ $MavenStatus == 0 ] then
 	echo "SUCCESS: All 2.13 Java builds completed successfully"
+fi
 cd $MSSCFHOME

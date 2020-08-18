@@ -26,7 +26,7 @@
  *	Please contact Mark Stephen Sobkow at msobkow@sasktel.net for commercial licensing.
  */
 
-package org.msscf.msscf.CFCli;
+package org.msscf.msscf.v2_13.CFCli;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -39,21 +39,19 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Iterator;
 
-import org.apache.log4j.*;
-
-import org.msscf.msscf.cflib.CFLib.*;
-import org.msscf.msscf.cfcore.CFGenKb.*;
-import org.msscf.msscf.cfcore.CFGenKbObj.*;
-import org.msscf.msscf.cfcore.CFGenKbRam.*;
-import org.msscf.msscf.cfcore.MssCF.*;
-import org.msscf.msscf.cfsec.CFSec.*;
-import org.msscf.msscf.cfsec.CFSecObj.*;
-import org.msscf.msscf.cfbam.CFBam.*;
-import org.msscf.msscf.cfbam.CFBamObj.*;
-import org.msscf.msscf.cfbam.CFBamRam.*;
-import org.msscf.msscf.cfbam.CFBamMssCF.*;
-import org.msscf.msscf.cfbamcust.CFBamXmlLoader.CFBamXmlLoader;
-import org.msscf.msscf.cfbamcust.MSSBamCF.*;
+import org.msscf.msscf.v2_13.cflib.CFLib.*;
+import org.msscf.msscf.v2_13.cfcore.CFGenKb.*;
+import org.msscf.msscf.v2_13.cfcore.CFGenKbObj.*;
+import org.msscf.msscf.v2_13.cfcore.CFGenKbRam.*;
+import org.msscf.msscf.v2_13.cfcore.MssCF.*;
+import org.msscf.msscf.v2_13.cfsec.CFSec.*;
+import org.msscf.msscf.v2_13.cfsec.CFSecObj.*;
+import org.msscf.msscf.v2_13.cfbam.CFBam.*;
+import org.msscf.msscf.v2_13.cfbam.CFBamObj.*;
+import org.msscf.msscf.v2_13.cfbam.CFBamRam.*;
+import org.msscf.msscf.v2_13.cfbam.CFBamMssCF.*;
+import org.msscf.msscf.v2_13.cfbamcust.CFBamXmlLoader.CFBamXmlLoader;
+import org.msscf.msscf.v2_13.cfbamcust.MSSBamCF.*;
 
 public class CFCli
 {
