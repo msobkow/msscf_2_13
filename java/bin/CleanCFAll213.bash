@@ -1,25 +1,24 @@
 #!/bin/bash
 cd $MSSCFHOME
-#pushd cfkbase_2_13/java
-#ant clean
-#popd
-pushd msscf_2_13/java
-ant clean
-popd
-pushd cfbam_2_13/java
-ant clean
-popd
-pushd cfint_2_13/java
-ant clean
-popd
-pushd cfsec_2_13/java
-ant clean
-popd
-pushd cfcore_2_13/java
-ant clean
-popd
-pushd cflib_2_13/java
-ant clean
-popd
-
+for aprojdir in \
+	cfbam_2_13/java/org.msscf.msscf.v2_13.cfbam.CFBamMssCF \
+	cfbam_2_13/java/org.msscf.msscf.v2_13.cfbam.CFBamRam \
+	cfbam_2_13/java/org.msscf.msscf.v2_13.cfbam.CFBamSaxLoader \
+	cfbam_2_13/java/org.msscf.msscf.v2_13.cfbam \
+	cfint_2_13/java/org.msscf.msscf.v2_13.cfint.CFIntRam \
+	cfint_2_13/java/org.msscf.msscf.v2_13.cfint.CFIntSaxLoader \
+	cfint_2_13/java/org.msscf.msscf.v2_13.cfint \
+	cfsec_2_13/java/org.msscf.msscf.v2_13.cfsec.CFSecRam \
+	cfsec_2_13/java/org.msscf.msscf.v2_13.cfsec.CFSecSaxLoader \
+	cfsec_2_13/java/org.msscf.msscf.v2_13.cfsec \
+	cfcore_2_13/java/org.msscf.msscf.v2_13.cfcore \
+	cflib_2_13/java/org.msscf.msscf.v2_13.cflib.CFLib.JavaFX \
+	cflib_2_13/java/org.msscf.msscf.v2_13.cflib.CFLib
+do
+	if [ -a ${aprojdir}/pom.xml ]; then
+		pushd ${aprojdir}
+			mvn clean
+		popd
+	fi
+done
 cd $MSSCFHOME
