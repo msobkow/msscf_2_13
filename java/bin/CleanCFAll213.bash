@@ -1,8 +1,5 @@
 #!/bin/bash
 cd $MSSCFHOME
-pushd cfacc_2_13/java
-ant clean
-popd
 #pushd cfkbase_2_13/java
 #ant clean
 #popd
@@ -10,12 +7,6 @@ pushd msscf_2_13/java
 ant clean
 popd
 pushd cfbam_2_13/java
-ant clean
-popd
-pushd cfdbtst_2_13/java
-ant clean
-popd
-pushd cfcrm_2_13/java
 ant clean
 popd
 pushd cfint_2_13/java

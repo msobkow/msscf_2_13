@@ -12,12 +12,6 @@ popd
 pushd cfint_2_13/java
 ./Pack* $*
 popd
-pushd cfcrm_2_13/java
-./Pack* $*
-popd
-pushd cfdbtst_2_13/java
-./Pack* $*
-popd
 pushd cfbam_2_13/java
 ./Pack* $*
 popd
@@ -27,7 +21,4 @@ popd
 #pushd cfkbase_2_13/java
 #./Pack* $*
 #popd
-pushd cfacc_2_13/java
-./Pack* $*
-popd
 cd $MSSCFHOME

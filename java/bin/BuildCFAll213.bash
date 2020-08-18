@@ -12,12 +12,6 @@ popd
 pushd cfint_2_13/java
 ant
 popd
-pushd cfcrm_2_13/java
-ant
-popd
-pushd cfdbtst_2_13/java
-ant
-popd
 pushd cfbam_2_13/java
 ant
 popd
@@ -27,7 +21,4 @@ popd
 #pushd cfkbase_2_13/java
 #ant
 #popd
-pushd cfacc_2_13/java
-ant
-popd
 cd $MSSCFHOME
