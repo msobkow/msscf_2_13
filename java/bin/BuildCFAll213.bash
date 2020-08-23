@@ -32,7 +32,7 @@ do
 		fi
 	fi
 done
-if [ $MavenStatus == 0 ] then
+if [ $MavenStatus == 0 ]; then
 	echo "SUCCESS: All 2.13 Java builds completed successfully"
 fi
 cd $MSSCFHOME
