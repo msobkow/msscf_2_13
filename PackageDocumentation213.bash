@@ -24,8 +24,8 @@ else
 							rm -f ${archiveFileName}
 						fi
 						echo "Packaging ${archiveFileName} ..."
-						if [ -d ${MSSCFHOME}/htdocs/msscf.org/msscf/2.0.13/documentation-2.13 ]; then
-							pushd ${MSSCFHOME}/htdocs/msscf.org/msscf/2.0.13
+						if [ -d ${MSSCFHOME}/htdocs/msscode.com/msscf/2.0.13/documentation-2.13 ]; then
+							pushd ${MSSCFHOME}/htdocs/msscode.com/msscf/2.0.13
 								find documentation-2.13 -name 'gpl-3.0.txt' -o -name 'Apache_V2.txt' -o -name LICENSE -o -name '.htaccess' -o -name '*.css' -o -name '*.html' -o -name '*.txt' -o -name '*.xml' -o -name '*.xsd' -o -name '*.jpg' -o -name '*.gif' -o -name '*.png' -o -name '*.bash' | grep -v build | zip '-q9@' ${archiveFileName}
 							popd
 						fi

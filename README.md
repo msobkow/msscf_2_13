@@ -1,7 +1,7 @@
 # msscf_2_13
 MSS Code Factory MssCF 2.13 Code Factory Command Line Interface
 
-Copyright 2020 Mark Stephen Sobkow
+Copyright 2020-2021 Mark Stephen Sobkow
 
 	This file is part of MSS Code Factory.
 
@@ -24,4 +24,4 @@ Copyright 2020 Mark Stephen Sobkow
 Donations to support MSS Code Factory can be made at
 https://www.paypal.com/paypalme/MarkSobkow
 
-Please contact Mark Stephen Sobkow at msobkow@sasktel.net for commercial licensing.
+Please contact Mark Stephen Sobkow at mark.sobkow@gmail.com for commercial licensing.
